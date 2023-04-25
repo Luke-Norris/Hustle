@@ -7572,11 +7572,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luke\\Desktop\\Projects\\hustle\\backend\\HustleApp-Backend\\HustleApp-Backend.csproj",
+      "projectUniqueName": "C:\\Users\\Luke\\Desktop\\Projects\\hustle\\HustleApp-Backend\\HustleApp-Backend.csproj",
       "projectName": "HustleApp-Backend",
-      "projectPath": "C:\\Users\\Luke\\Desktop\\Projects\\hustle\\backend\\HustleApp-Backend\\HustleApp-Backend.csproj",
+      "projectPath": "C:\\Users\\Luke\\Desktop\\Projects\\hustle\\HustleApp-Backend\\HustleApp-Backend.csproj",
       "packagesPath": "C:\\Users\\Luke\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luke\\Desktop\\Projects\\hustle\\backend\\HustleApp-Backend\\obj\\",
+      "outputPath": "C:\\Users\\Luke\\Desktop\\Projects\\hustle\\HustleApp-Backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Luke\\AppData\\Roaming\\NuGet\\NuGet.Config"

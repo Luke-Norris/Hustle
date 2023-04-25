@@ -22,7 +22,7 @@ namespace HustleApp_Backend
             services.AddControllers();
 
             services.AddDbContext<JobDbContext>(options =>
-                options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
+                options.UseNpgsql(Configuration.GetConnectionString("postgresql://postgres:postgres@localhost:5432/postgres")));
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -31,8 +31,16 @@ namespace HustleApp_Backend
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                app.UseExceptionHandler("/error");
+            }
+
+            app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

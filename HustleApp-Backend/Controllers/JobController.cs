@@ -1,7 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using HustleApp_Backend.Models;
 
@@ -16,12 +14,6 @@ namespace HustleApp_Backend.Controllers
         public JobController(JobDbContext context)
         {
             _context = context;
-        }
-
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<Job>>> GetJobs()
-        {
-            return await _context.Jobs.ToListAsync();
         }
 
         [HttpGet("{id}")]

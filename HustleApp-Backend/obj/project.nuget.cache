@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8uHPwzdhbpizjaCR/K580HW7GgaBplJxsGk0e7zlT3PEsTRWZYtZI0oWV96B+jpZV7NuC2utsOMeX/GDBpXN1w==",
+  "dgSpecHash": "0x6atX3VyxthhF6Gc/6rTXVCGP3K+pRRcClxrNzm0uhVA3Ug0I6LAgLc5HssRRprnKZgq1k568B5qcJqkGHuJg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Luke\\Desktop\\Projects\\hustle\\backend\\HustleApp-Backend\\HustleApp-Backend.csproj",
+  "projectFilePath": "C:\\Users\\Luke\\Desktop\\Projects\\hustle\\HustleApp-Backend\\HustleApp-Backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luke\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Luke\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
